@@ -1,4 +1,4 @@
-# 🚀 Risk Analytics Dashboard
+#  Risk Analytics Dashboard
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
@@ -7,18 +7,18 @@
 [![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](https://www.docker.com/)
 [![GraphQL](https://img.shields.io/badge/GraphQL-Enabled-e10098.svg)](https://graphql.org/)
 
-## 📊 Executive Summary
+##  Executive Summary
 
 **Risk Analytics Dashboard** is an enterprise-grade, real-time portfolio risk management system designed for hedge funds, investment banks, and trading desks. Built with modern microservices architecture, it provides institutional-quality risk metrics, anomaly detection, and compliance monitoring for multi-asset portfolios.
 
-### 🎯 Key Differentiators
+###  Key Differentiators
 - **Sub-millisecond latency** for critical risk calculations
 - **ML-powered anomaly detection** using Isolation Forest and LSTM models
 - **Real-time VaR/CVaR** calculations with Monte Carlo simulations
 - **Multi-region support** with focus on Asia-Pacific markets (SGX, HKEX, NYSE, NASDAQ)
 - **Regulatory compliance** ready (MAS, HKMA, SEC requirements)
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 ```mermaid
 graph TB
@@ -82,9 +82,9 @@ graph TB
     Refinitiv --> FastAPI
 ```
 
-## ✨ Features
+##  Features
 
-### 📈 Risk Metrics
+###  Risk Metrics
 - **Value at Risk (VaR)**: Historical, Parametric, and Monte Carlo methods
 - **Conditional VaR (CVaR)**: Tail risk assessment
 - **Greeks Calculation**: Delta, Gamma, Vega, Theta for derivatives
@@ -93,13 +93,13 @@ graph TB
 - **Beta & Correlation**: Market sensitivity analysis
 - **Stress Testing**: Scenario-based risk assessment
 
-### 🤖 Machine Learning
+###  Machine Learning
 - **Anomaly Detection**: Real-time unusual pattern identification
 - **Predictive Analytics**: Risk forecasting using LSTM/GRU
 - **Portfolio Optimization**: Markowitz efficient frontier
 - **Sentiment Analysis**: News and social media impact assessment
 
-### 📊 Visualization
+###  Visualization
 - **Real-time Dashboards**: Sub-second updates via WebSocket
 - **Interactive Charts**: Zoom, pan, and drill-down capabilities
 - **Heatmaps**: Correlation and sector exposure visualization
@@ -113,7 +113,7 @@ graph TB
 - **Streaming**: Real-time market data via Kafka
 - **Historical Data**: Backtesting with 10+ years of data
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 ### Backend
 - **Framework**: FastAPI (Python 3.11+)
@@ -154,7 +154,7 @@ graph TB
 - **Feature Store**: Feast
 - **Model Serving**: TorchServe / TensorFlow Serving
 
-## 📋 Prerequisites
+##  Prerequisites
 
 ### System Requirements
 - **OS**: Ubuntu 22.04 LTS / macOS 13+ / Windows 11 with WSL2
@@ -179,11 +179,11 @@ graph TB
 - ClickHouse 23+
 ```
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1️⃣ Clone Repository
 ```bash
-git clone https://github.com/yourusername/risk-analytics-dashboard.git
+git clone https://github.com/senthilts9/risk-analytics-dashboard.git
 cd risk-analytics-dashboard
 ```
 
@@ -326,7 +326,7 @@ risk-analytics-dashboard/
 └── README.md                    # This file
 ```
 
-## 🔧 Configuration
+##  Configuration
 
 ### Environment Variables
 ```bash
@@ -532,7 +532,7 @@ jobs:
         run: kubectl apply -f k8s/
 ```
 
-## 📊 Monitoring & Observability
+##  Monitoring & Observability
 
 ### Metrics
 - **Prometheus**: System and application metrics
@@ -548,7 +548,7 @@ jobs:
 - **Jaeger**: Distributed tracing
 - **OpenTelemetry**: Instrumentation
 
-## 🤝 Contributing
+##  Contributing
 
 We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
 
@@ -565,7 +565,7 @@ We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) f
 - **Commits**: Conventional Commits
 - **Documentation**: Keep README updated
 
-## 📚 Documentation
+##  Documentation
 
 - **[API Documentation](docs/api/README.md)**: Complete API reference
 - **[Architecture Guide](docs/architecture/README.md)**: System design details
@@ -603,7 +603,7 @@ kafka-topics.sh --list --bootstrap-server localhost:9092
 kafka-topics.sh --create --topic market-data --bootstrap-server localhost:9092
 ```
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
@@ -616,8 +616,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 - **Documentation**: [https://docs.riskdashboard.io](https://docs.riskdashboard.io)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/risk-analytics-dashboard/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/yourusername/risk-analytics-dashboard/discussions)
+- **Issues**: [GitHub Issues](https://github.com/senthilts9/risk-analytics-dashboard/issues)
+- **Discussions**: [GitHub Discussions](https://github.com/senthilts9/risk-analytics-dashboard/discussions)
 - **Email**: support@riskdashboard.io
 - **Slack**: [Join our Slack](https://slack.riskdashboard.io)
 
@@ -649,7 +649,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 **Built with ❤️ by the Risk Analytics Team**
 
-[![Star](https://img.shields.io/github/stars/yourusername/risk-analytics-dashboard?style=social)](https://github.com/yourusername/risk-analytics-dashboard)
+[![Star](https://img.shields.io/github/stars/senthilts9/risk-analytics-dashboard?style=social)](https://github.com/senthilts9/risk-analytics-dashboard)
 [![Follow](https://img.shields.io/twitter/follow/riskdashboard?style=social)](https://twitter.com/riskdashboard)
 
 </div>
