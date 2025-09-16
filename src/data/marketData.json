@@ -1,0 +1,230 @@
+// src/data/marketData.json
+{
+  "realTimeMetrics": {
+    "totalExposure": 125800000,
+    "valueAtRisk": 2410000,
+    "sharpeRatio": 1.87,
+    "maxDrawdown": 4.2,
+    "betaToMarket": 0.95,
+    "portfolioValue": 50200000,
+    "timestamp": "2024-09-16T15:30:00Z",
+    "marketStatus": "OPEN"
+  },
+  "varHistoryData": [
+    {
+      "timestamp": "2024-09-16T09:30:00Z",
+      "time": "09:30",
+      "var": 2100000,
+      "expected": 2300000,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2024-09-16T10:00:00Z",
+      "time": "10:00",
+      "var": 2300000,
+      "expected": 2400000,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2024-09-16T10:30:00Z",
+      "time": "10:30",
+      "var": 2800000,
+      "expected": 2500000,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2024-09-16T11:00:00Z",
+      "time": "11:00",
+      "var": 2500000,
+      "expected": 2400000,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2024-09-16T11:30:00Z",
+      "time": "11:30",
+      "var": 2200000,
+      "expected": 2300000,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2024-09-16T12:00:00Z",
+      "time": "12:00",
+      "var": 2400000,
+      "expected": 2400000,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2024-09-16T12:30:00Z",
+      "time": "12:30",
+      "var": 2600000,
+      "expected": 2500000,
+      "confidence": 0.95
+    },
+    {
+      "timestamp": "2024-09-16T13:00:00Z",
+      "time": "13:00",
+      "var": 2400000,
+      "expected": 2400000,
+      "confidence": 0.95
+    }
+  ],
+  "sectorExposure": [
+    {
+      "sector": "Technology",
+      "exposure": 35.2,
+      "limit": 40.0,
+      "value": 17600000,
+      "color": "#00D4FF",
+      "lastUpdated": "2024-09-16T15:29:45Z"
+    },
+    {
+      "sector": "Healthcare",
+      "exposure": 22.1,
+      "limit": 25.0,
+      "value": 11050000,
+      "color": "#00FF88",
+      "lastUpdated": "2024-09-16T15:29:45Z"
+    },
+    {
+      "sector": "Financial",
+      "exposure": 18.3,
+      "limit": 20.0,
+      "value": 9150000,
+      "color": "#FFD700",
+      "lastUpdated": "2024-09-16T15:29:45Z"
+    },
+    {
+      "sector": "Energy",
+      "exposure": 12.4,
+      "limit": 15.0,
+      "value": 6200000,
+      "color": "#FF6B6B",
+      "lastUpdated": "2024-09-16T15:29:45Z"
+    },
+    {
+      "sector": "Consumer",
+      "exposure": 12.0,
+      "limit": 15.0,
+      "value": 6000000,
+      "color": "#A78BFA",
+      "lastUpdated": "2024-09-16T15:29:45Z"
+    }
+  ],
+  "riskAlerts": [
+    {
+      "id": "ALERT_001",
+      "timestamp": "2024-09-16T13:45:23Z",
+      "time": "13:45:23",
+      "symbol": "TSLA",
+      "alert": "Position Limit Breach",
+      "severity": "HIGH",
+      "status": "ACTIVE",
+      "threshold": 5000000,
+      "currentValue": 5250000,
+      "description": "Tesla position exceeds maximum single position limit"
+    },
+    {
+      "id": "ALERT_002",
+      "timestamp": "2024-09-16T13:42:18Z",
+      "time": "13:42:18",
+      "symbol": "NVDA",
+      "alert": "Volatility Spike",
+      "severity": "MEDIUM",
+      "status": "RESOLVED",
+      "threshold": 0.25,
+      "currentValue": 0.18,
+      "description": "Nvidia volatility returned to normal levels"
+    },
+    {
+      "id": "ALERT_003",
+      "timestamp": "2024-09-16T13:38:45Z",
+      "time": "13:38:45",
+      "symbol": "AMZN",
+      "alert": "Correlation Alert",
+      "severity": "LOW",
+      "status": "MONITORING",
+      "threshold": 0.8,
+      "currentValue": 0.85,
+      "description": "Amazon correlation with market index above threshold"
+    },
+    {
+      "id": "ALERT_004",
+      "timestamp": "2024-09-16T13:35:12Z",
+      "time": "13:35:12",
+      "symbol": "GOOGL",
+      "alert": "Liquidity Warning",
+      "severity": "MEDIUM",
+      "status": "ACTIVE",
+      "threshold": 1000000,
+      "currentValue": 750000,
+      "description": "Google average daily volume below liquidity threshold"
+    }
+  ],
+  "portfolioBreakdown": [
+    {
+      "asset": "Equities",
+      "value": 35200000,
+      "percentage": 70.1,
+      "subCategories": [
+        {"name": "Large Cap", "value": 24640000, "percentage": 49.2},
+        {"name": "Mid Cap", "value": 7040000, "percentage": 14.0},
+        {"name": "Small Cap", "value": 3520000, "percentage": 7.0}
+      ]
+    },
+    {
+      "asset": "Fixed Income",
+      "value": 8500000,
+      "percentage": 16.9,
+      "subCategories": [
+        {"name": "Government Bonds", "value": 5100000, "percentage": 10.2},
+        {"name": "Corporate Bonds", "value": 2550000, "percentage": 5.1},
+        {"name": "Municipal Bonds", "value": 850000, "percentage": 1.7}
+      ]
+    },
+    {
+      "asset": "Derivatives",
+      "value": 4200000,
+      "percentage": 8.4,
+      "subCategories": [
+        {"name": "Options", "value": 2520000, "percentage": 5.0},
+        {"name": "Futures", "value": 1260000, "percentage": 2.5},
+        {"name": "Swaps", "value": 420000, "percentage": 0.8}
+      ]
+    },
+    {
+      "asset": "Cash",
+      "value": 2300000,
+      "percentage": 4.6,
+      "subCategories": [
+        {"name": "USD", "value": 1840000, "percentage": 3.7},
+        {"name": "EUR", "value": 460000, "percentage": 0.9}
+      ]
+    }
+  ],
+  "systemHealth": {
+    "riskEngine": {
+      "status": "OPERATIONAL",
+      "uptime": 99.94,
+      "lastUpdate": "2024-09-16T15:30:00Z",
+      "processedEvents": 847293
+    },
+    "marketData": {
+      "status": "OPERATIONAL",
+      "uptime": 99.98,
+      "lastUpdate": "2024-09-16T15:30:00Z",
+      "dataLatency": 12
+    },
+    "analyticsDB": {
+      "status": "HIGH_LOAD",
+      "uptime": 99.85,
+      "lastUpdate": "2024-09-16T15:30:00Z",
+      "queryPerformance": 145
+    },
+    "lambdaFunctions": {
+      "status": "OPERATIONAL",
+      "uptime": 99.99,
+      "lastUpdate": "2024-09-16T15:30:00Z",
+      "activeConnections": 247
+    }
+  }
+}
