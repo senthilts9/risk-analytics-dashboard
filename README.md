@@ -1,4 +1,4 @@
-# 🚀 Risk Analytics Dashboard
+#  Risk Analytics Dashboard
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/downloads/)
@@ -7,18 +7,18 @@
 [![Docker](https://img.shields.io/badge/Docker-Ready-blue.svg)](https://www.docker.com/)
 [![GraphQL](https://img.shields.io/badge/GraphQL-Enabled-e10098.svg)](https://graphql.org/)
 
-## 📊 Executive Summary
+##  Executive Summary
 
 **Risk Analytics Dashboard** is an enterprise-grade, real-time portfolio risk management system designed for hedge funds, investment banks, and trading desks. Built with modern microservices architecture, it provides institutional-quality risk metrics, anomaly detection, and compliance monitoring for multi-asset portfolios.
 
-### 🎯 Key Differentiators
+###  Key Differentiators
 - **Sub-millisecond latency** for critical risk calculations
 - **ML-powered anomaly detection** using Isolation Forest and LSTM models
 - **Real-time VaR/CVaR** calculations with Monte Carlo simulations
 - **Multi-region support** with focus on Asia-Pacific markets (SGX, HKEX, NYSE, NASDAQ)
 - **Regulatory compliance** ready (MAS, HKMA, SEC requirements)
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 ```mermaid
 graph TB
@@ -93,7 +93,7 @@ graph TB
 - **Beta & Correlation**: Market sensitivity analysis
 - **Stress Testing**: Scenario-based risk assessment
 
-### 🤖 Machine Learning
+###  Machine Learning
 - **Anomaly Detection**: Real-time unusual pattern identification
 - **Predictive Analytics**: Risk forecasting using LSTM/GRU
 - **Portfolio Optimization**: Markowitz efficient frontier
